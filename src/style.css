@@ -52,7 +52,8 @@ h4 {
   );
   border-radius: 10px;
   max-width: 700px;
-  margin: 40px auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
   padding-top: 20px;
   padding-left: 60px;
   padding-right: 60px;
@@ -115,4 +116,8 @@ h4 {
   margin-top: -130px;
   text-align: center;
   margin-bottom: 20px;
+}
+.link {
+  display: inline;
+  margin: 0px 380px;
 }
