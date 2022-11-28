@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="text"
+          id="city"
+          placeholder="Insert the city here"
+          autocomplete="off"
+        />
+        <button id="search">Search</button>
+           </form>
+        <button id="current">Current</button>
+   
+
+      <h1>Prague, Czechia</h1>
+      <br />
+      <h4>11 October, 2022</h4>
+      <h2>Tuesday 16:00</h2>
+      <span id="temperature">22</span>
+      <span id="units">°C | <a href="#" id="fahrenheit-link">F</a></span>
+      <span id="weather"> Clear</span>
+      <br>
+      <p class="sunny-today">☀️</p>
+        <div class="row">
+          <div class="col">Wed 18°C 🌤</div>
+          <div class="col">Thu 16°C ⛈ </div>
+          <div class="col">Fri 13°C ⛈</div>
+          <div class="col">Sat 16°C ☀️</div>
+          <div class="col">Sun 17°C ⛈ </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

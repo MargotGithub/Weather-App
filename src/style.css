@@ -1,0 +1,118 @@
+h1,
+h2,
+#temperature,
+#units,
+#weather,
+h4,
+.row {
+  font-family: "Asap", sans-serif;
+  color: #ffff;
+}
+h1 {
+  position: relative;
+  top: -50px;
+  right: -380px;
+  font-size: 30px;
+}
+h2 {
+  position: relative;
+  top: -50px;
+  left: -5px;
+  font-size: 35px;
+}
+#temperature {
+  font-size: 25px;
+  position: relative;
+  top: -50px;
+  font-weight: 100;
+}
+#units {
+  font-size: 25px;
+  position: relative;
+  top: -50px;
+  font-weight: 100;
+}
+#weather {
+  font-size: 25px;
+  position: relative;
+  top: -50px;
+  font-weight: 100;
+}
+h4 {
+  font-size: 20px;
+  position: relative;
+  top: -80px;
+  right: -380px;
+}
+.container {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 40px auto;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+#search {
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: #5661dc;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "Asap", sans-serif;
+}
+#search:hover {
+  transition: all 200ms ease;
+  background: rgb(117, 170, 249);
+  color: aliceblue;
+}
+#current {
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: #5661dc;
+  padding: 5px 20px;
+  font-size: 10px;
+  margin-top: 10px;
+  font-family: "Asap", sans-serif;
+  position: relative;
+  left: 255px;
+  top: 0px;
+}
+
+#current:hover {
+  transition: all 200ms ease;
+  background: rgb(117, 170, 249);
+  color: aliceblue;
+}
+
+#city {
+  border-radius: 50px;
+  padding: 10px 50px;
+  border: solid 2px;
+  background: #5d93e9;
+  border-color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: -15px;
+  font-family: "Asap", sans-serif;
+}
+.sunny-today {
+  font-size: 50px;
+  position: relative;
+  top: -110px;
+  right: -190px;
+}
+.row {
+  font-size: 30px;
+  margin-top: -130px;
+  text-align: center;
+  margin-bottom: 20px;
+}
